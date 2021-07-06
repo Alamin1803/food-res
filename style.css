@@ -55,7 +55,7 @@ p{
     width: 50%;
     padding-top: 9rem;
 }
-.banner-description h1 span{
+.banner-description-orng{
     color: orangered;
 }
 .banner-description p{
@@ -169,4 +169,34 @@ background-color:whitesmoke;
 .recipie-card h4{
     text-align: center;
     margin-top: 0.8rem;
+}
+/* service start  */
+.service-items{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 2rem;
+}
+.service-section h2{
+    padding: 2rem 0rem;
+    text-align: center;
+}
+.service{
+    padding: 20px;
+}
+.service-title h4{
+    display: inline-block;
+    font-size: 2rem;
+    margin-left: 0.6rem;
+    transform: translateY(-10px);
+
+}
+/* <!-- footer section  --> */
+.footer-section{
+    background-color: rgb(53, 45, 45);
+    padding-top: 4rem ;
+    padding-bottom: 2rem;
+    text-align: center;
+}
+.footer-section h3,.footer-section p{
+text-align: center;
 }
