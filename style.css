@@ -4,7 +4,7 @@ html,body{
     font-size: font-family: 'Poppins', sans-serif;
 }
 .container{
-    width: 90%;
+    width: 85%;
     margin: 0 auto;
 }
 /* css start  */
@@ -19,12 +19,113 @@ li{
     list-style-type: none;
 }
 h1{
-    font-size: 2.5rem;
+    font-size: 4rem;
+    text-align: justify;
+    font-weight: 700;
+    line-height: inherit;
 }
-
+h2{
+    font-size: 2.5rem;
+    text-align: justify;
+}
+h3{
+    font-size: 2rem;
+    text-align: justify;
+}
+h4{
+    font-size:1.7 ;
+    text-align: justify;
+}
+p{
+    color: #718096;
+    font-size: 1.2rem;
+    text-align: justify;
+    font-weight: 400;
+    line-height: 1.5rem;
+}
 /* banner section  */
 .banner-section{
     display: flex;
     flex-direction: row;
-    flex-basis: 1;
+    flex-grow: 1;
+    padding-top: 4rem;
+}
+.banner-description{
+    width: 50%;
+    padding-top: 9rem;
+}
+.banner-description h1 span{
+    color: orangered;
+}
+.banner-description p{
+    margin-top: 2rem;
+    line-height: 1.5rem;
+}
+.banner-description a button{
+    color: #fff;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, orange, orangered);
+    padding: 1rem 1.5rem ;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
+
+    
+}
+.banner-image {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.banner-image img{
+    width: 514px;
+    height: auto;
+    
+}
+/* about section start  */
+.about-section{
+    
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.about-secttion-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem;
+    padding-top: 3.5rem;
+}
+.about-image{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.about-image img{
+    width: 304px;
+    
+}
+.about{
+    width: 50%;
+    padding-top: 5rem;
+    margin: 0 auto;
+}
+.about h2{
+color: #43464b;
+}
+.about p {
+    margin-top: 2rem ;
+}
+.about a button{
+    color: #fff;
+    font-size: 1rem;
+    background-image: linear-gradient(to right, orange, orangered);
+    padding: 1rem 1.5rem ;
+    outline: none;
+    border: none;
+    border-radius: 1.5rem;
+    margin-top: 3rem;
+    cursor: pointer;
 }
